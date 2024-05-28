@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./assets/js/firebase.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+</head>
+<body>
+   <input type="text" id="nombre" placeholder="Nombre">
+   <input type="text" id="apellido" placeholder="Apellido">
+   <input type="text" id="rut" placeholder="Rut">
+   <input type="email" id="correo" placeholder="Correo">
+   <input type="number" id="edad" placeholder="Edad">
+   <input type="date" id="fechaNacimiento" placeholder="Fecha de nacimiento">
+   <button id="btnRegistrar">Registrar</button>
+   <table id="tPersonas">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Rut</th>
+            <th>Correo</th>
+            <th>Edad</th>
+            <th>Fecha Nacimiento</th>
+        </tr>
+    </thead>
+    <tbody id="tbPersonas" >
+
+    </tbody>
+   </table>
+   <h1>Modificar</h1>
+   <input type="text" id="UPDnombre" placeholder="Nombre">
+   <input type="text" id="UPDapellido" placeholder="Apellido">
+   <input type="text" id="UPDrut" placeholder="Rut">
+   <input type="email" id="UPDcorreo" placeholder="Correo">
+   <input type="number" id="UPDedad" placeholder="Edad">
+   <input type="date" id="UPDfechaNacimiento" placeholder="Fecha de nacimiento">
+   <button id="btnActualizar">Actualizar</button>
+   
+   <h1>Eliminar</h1>
+   <input type="text" id="DELnombre" placeholder="Nombre" disabled>
+   <input type="text" id="DELapellido" placeholder="Apellido" disabled>
+   <input type="text" id="DELrut" placeholder="Rut" disabled>
+   <input type="email" id="DELcorreo" placeholder="Correo" disabled>
+   <input type="number" id="DELedad" placeholder="Edad" disabled>
+   <input type="date" id="DELfechaNacimiento" placeholder="Fecha de nacimiento" disabled>
+   <button id="btnEliminar">Eliminar</button>
+</body>
+</html>
